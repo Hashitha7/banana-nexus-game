@@ -59,7 +59,6 @@ public class UserServiceImpl implements UserService {
 
             default:
                 throw new CustomOauthException(AppConstants.ErrorConstants.INVALID_CLIENT_ID);
-                // test
         }
     }
 
