@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/1.jpg";
+//change banana image 1 
 import { ArrowRightCircle, PersonCircle, StarFill } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -9,7 +10,6 @@ import { useNavigate } from "react-router-dom";
 import { BoxArrowRight } from "react-bootstrap-icons"; // Import logout icon
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
