@@ -13,7 +13,7 @@ code {
 }
 
 .quiz-cover{
-  background-image: url('./assets/bc-02.jpg');
+  background-image: url('./assets/A3.png');
 }
 
 .quiz-img{
@@ -76,7 +76,7 @@ code {
 /* change this one */
 
 .end-cover{
-  background-image: url('./assets/bc-02.jpg');
+  background-image: url('./assets/A3.png');
   background-position: left;
 }
 
