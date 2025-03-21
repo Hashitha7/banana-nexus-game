@@ -132,17 +132,15 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome To My Banana Nexus Game</span>
                   <h1>{`Hi! I'm `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Learnfi.lk", "Learnfi.lk"]'><span className="wrap">{text}</span></span></h1>
-                  
-
                   <p>
-                  Banana Nexus Game is a Fun and interactive Game that can be played by any number of players .................................................................. 
+                  "Banana Nexus Game" is an exciting 2D platformer where players control a nimble character navigating through a jungle of bananas. The objective is to collect as many bananas as possible while avoiding obstacles and enemies.collect bananas to level up your score.The game offers fun, fast-paced action and colorful visuals to keep players hooked!et ready for an addictive, action-packed journey through the Banana Nexus!"
                   </p>
                   <button style={{ fontSize: "30px", color:"#f9ca24" }} onClick={startGame}>
                     Start Game <ArrowRightCircle size={35} />
                   </button>
-                  <button className="logout-btn" onClick={logoutHandler}>
-              Logout <BoxArrowRight size={20} />
-            </button>
+                  <button style={{ fontSize: "30px", color:"#95a5a6" }}  onClick={logoutHandler}>
+                  Logout <BoxArrowRight size={35} />
+                 </button>
                 </div>
               )}
             </TrackVisibility>
