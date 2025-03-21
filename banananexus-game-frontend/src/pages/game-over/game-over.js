@@ -117,7 +117,7 @@ export default function (props) {
                   View Point Table{" "}
                   <span
                     style={{
-                      color: "yellow",
+                      color: "green",
                       fontSize: "24px",
                       marginLeft: "10px",
                     }}
