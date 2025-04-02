@@ -145,13 +145,13 @@ const SignUpHandler = async () => {
   } catch (error) {
       console.error(error);
 
-      if (error.response) {
-          toast.error(error.response.data?.message || "Registration failed. Try again.");
-      } else if (error.request) {
-          toast.error("Server is not responding. Please try again later.");
-      } else {
-          toast.error("Something went wrong. Please check your internet connection.");
-      }
+      // if (error.response) {
+      //     toast.error(error.response.data?.message || "Registration failed. Try again.");
+      // } else if (error.request) {
+      //     toast.error("Server is not responding. Please try again later.");
+      // } else {
+      //     toast.error("Something went wrong. Please check your internet connection.");
+      // } change this one (comment) 
   }
 };
 
