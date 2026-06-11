@@ -259,4 +259,4 @@ Authorization: Basic cGxheWVyOg==
 ## 👨‍💻 Author
 
 **Hashitha Danidu**  
-Banana Nexus Game — Built with ❤️ using Spring Boot & React
+Banana Nexus Game — Built with  using Spring Boot & React
